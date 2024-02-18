@@ -4,8 +4,8 @@ package com.websocket.demo.chat;
 import lombok.Builder;
 import lombok.Getter;
 
-@Getter
-@Builder
+@Getter // can get everything from this class (flied)
+@Builder // build constructor
 public class ChatMessage {
     private String content;
     private String timestamp;
